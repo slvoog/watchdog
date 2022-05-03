@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+
+div {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    padding: 350px 0 50px;
+    animation: rainbow-shadow 10s ease-in-out infinite;
+}
+
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+@keyframes rainbow-shadow {
+    0% {
+        text-shadow: 3px 3px 1px red;
+    }
+    20% {
+        text-shadow: 3px 3px 1px orange;
+    }
+    30% {
+        text-shadow: 3px 3px 1px yellow;
+    }
+    40% {
+        text-shadow: 3px 3px 1px lime;
+    }
+    50% {
+        text-shadow: 3px 3px 1px blue;
+    }
+    60% {
+        text-shadow: 3px 3px 1px indigo;
+    }
+    70% {
+        text-shadow: 3px 3px 1px violet;
+    }
+    80% {
+        text-shadow: 3px 3px 1px red;
+    }
+    100% {
+        text-shadow: 3px 3px 1px orange;
+    }
+}
